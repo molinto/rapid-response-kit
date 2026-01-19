@@ -13,3 +13,4 @@ git+https://github.com/mbrrg/pusher_client_python.git#egg=pusher
 six==1.5.2
 twilio==3.6.8
 ordereddict==1.1
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
